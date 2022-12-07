@@ -1,8 +1,10 @@
 
 
-
+def generate_Greeting(name):
+    return f"Hello {name}!"
 
 def main():
-    print("Hello World!")
+    greeting = generate_Greeting("Spencer")
+    print(greeting)
 
 main()
